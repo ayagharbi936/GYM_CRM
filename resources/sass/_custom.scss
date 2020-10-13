@@ -1,0 +1,97 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+ body {
+  overflow-x: hidden;
+  background-color:#f1f2f6;
+
+
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.5rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+
+.navlink{
+  color: $navlink;
+  padding-right: 10px;
+
+
+  &:hover{
+      color: yellow;
+      text-decoration: none;
+  }
+}
+
+.yellowbackgroud {
+  background-color: $yellowcolor;
+}
+.gymcard{
+  margin: 5px;
+}
+
+.fin{
+  color: red;
+}
+
+.txt_bold{
+  font-weight: bold;
+}
+.cover{
+  background-color: #30475e;
+}
+
+.orange{
+  background-color:#f4511e ;
+  color: black;
+}
+.course{
+   background-image: url("../../public/image/cover.jpg");
+   background-position: center; /* Center the image */
+   background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover;
+  
+  color: #fff;
+  padding: 150px 25px;
+  font-family: Montserrat, sans-serif;
+}
